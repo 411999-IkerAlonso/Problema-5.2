@@ -195,11 +195,12 @@
             // 
             // lstAlumnos
             // 
+            this.lstAlumnos.Font = new System.Drawing.Font("Segoe UI Variable Text Semibold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstAlumnos.FormattingEnabled = true;
-            this.lstAlumnos.ItemHeight = 16;
+            this.lstAlumnos.ItemHeight = 22;
             this.lstAlumnos.Location = new System.Drawing.Point(873, 37);
             this.lstAlumnos.Name = "lstAlumnos";
-            this.lstAlumnos.Size = new System.Drawing.Size(242, 484);
+            this.lstAlumnos.Size = new System.Drawing.Size(240, 466);
             this.lstAlumnos.TabIndex = 17;
             // 
             // dtpFechaNac
@@ -372,6 +373,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.WindowText;
             this.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.Name = "frmAlumnos";
