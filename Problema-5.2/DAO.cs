@@ -51,15 +51,26 @@ namespace Problema_5._2
             Desconectar();
             return dt;
         }
-
         public int Actualizar(string consultaSQL)
         {
             Conectar();
             comando.CommandText = consultaSQL;
             int filasAfectadas = comando.ExecuteNonQuery();
+            Desconectar();
             return filasAfectadas;
         }
 
-
+        public int Actualizar(string consultaSQL, List<Parametro> parametros)
+        {
+            Conectar();
+            comando.CommandText = consultaSQL;
+            foreach(Parametro p in parametros)
+            {
+                comando.Parameters.AddWithValue(p.Nombre,p.Valor);
+            }   
+            int filasAfectadas = comando.ExecuteNonQuery();
+            Desconectar();
+            return filasAfectadas;
+        }
     }
 }

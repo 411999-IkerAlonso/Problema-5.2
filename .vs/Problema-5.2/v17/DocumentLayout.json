@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\usuario\\Desktop\\KIKER\\FACULTAD\\PROGRAMACION I\\LOGICA\\UNIDAD 5\\TRABAJOS\\Problema-5.2\\",
+  "WorkspaceRootPath": "C:\\Users\\usuario\\Desktop\\KIKER\\FACULTAD\\PROGRAMACION I\\LOGICA\\UNIDAD 5\\EJERCICIOS\\Problema-5.2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{486F2AF0-4233-40A4-8AE9-033AFB34C0F4}|Problema-5.2\\Problema-5.2.csproj|C:\\Users\\usuario\\Desktop\\KIKER\\FACULTAD\\PROGRAMACION I\\LOGICA\\UNIDAD 5\\TRABAJOS\\Problema-5.2\\problema-5.2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{486F2AF0-4233-40A4-8AE9-033AFB34C0F4}|Problema-5.2\\Problema-5.2.csproj|solutionrelative:problema-5.2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{486F2AF0-4233-40A4-8AE9-033AFB34C0F4}|Problema-5.2\\Problema-5.2.csproj|C:\\Users\\usuario\\Desktop\\KIKER\\FACULTAD\\PROGRAMACION I\\LOGICA\\UNIDAD 5\\TRABAJOS\\Problema-5.2\\problema-5.2\\dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{486F2AF0-4233-40A4-8AE9-033AFB34C0F4}|Problema-5.2\\Problema-5.2.csproj|c:\\users\\usuario\\desktop\\kiker\\facultad\\programacion i\\logica\\unidad 5\\ejercicios\\problema-5.2\\problema-5.2\\dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{486F2AF0-4233-40A4-8AE9-033AFB34C0F4}|Problema-5.2\\Problema-5.2.csproj|solutionrelative:problema-5.2\\dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{486F2AF0-4233-40A4-8AE9-033AFB34C0F4}|Problema-5.2\\Problema-5.2.csproj|c:\\users\\usuario\\desktop\\kiker\\facultad\\programacion i\\logica\\unidad 5\\trabajos\\problema-5.2\\problema-5.2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{486F2AF0-4233-40A4-8AE9-033AFB34C0F4}|Problema-5.2\\Problema-5.2.csproj|C:\\Users\\usuario\\Desktop\\KIKER\\FACULTAD\\PROGRAMACION I\\LOGICA\\UNIDAD 5\\EJERCICIOS\\Problema-5.2\\problema-5.2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{486F2AF0-4233-40A4-8AE9-033AFB34C0F4}|Problema-5.2\\Problema-5.2.csproj|solutionrelative:problema-5.2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{486F2AF0-4233-40A4-8AE9-033AFB34C0F4}|Problema-5.2\\Problema-5.2.csproj|C:\\Users\\usuario\\Desktop\\KIKER\\FACULTAD\\PROGRAMACION I\\LOGICA\\UNIDAD 5\\TRABAJOS\\Problema-5.2\\problema-5.2\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{486F2AF0-4233-40A4-8AE9-033AFB34C0F4}|Problema-5.2\\Problema-5.2.csproj|C:\\Users\\usuario\\Desktop\\KIKER\\FACULTAD\\PROGRAMACION I\\LOGICA\\UNIDAD 5\\EJERCICIOS\\Problema-5.2\\problema-5.2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{486F2AF0-4233-40A4-8AE9-033AFB34C0F4}|Problema-5.2\\Problema-5.2.csproj|solutionrelative:problema-5.2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486F2AF0-4233-40A4-8AE9-033AFB34C0F4}|Problema-5.2\\Problema-5.2.csproj|C:\\Users\\usuario\\Desktop\\KIKER\\FACULTAD\\PROGRAMACION I\\LOGICA\\UNIDAD 5\\EJERCICIOS\\Problema-5.2\\problema-5.2\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{486F2AF0-4233-40A4-8AE9-033AFB34C0F4}|Problema-5.2\\Problema-5.2.csproj|solutionrelative:problema-5.2\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486F2AF0-4233-40A4-8AE9-033AFB34C0F4}|Problema-5.2\\Problema-5.2.csproj|C:\\Users\\usuario\\Desktop\\KIKER\\FACULTAD\\PROGRAMACION I\\LOGICA\\UNIDAD 5\\EJERCICIOS\\Problema-5.2\\problema-5.2\\parametro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486F2AF0-4233-40A4-8AE9-033AFB34C0F4}|Problema-5.2\\Problema-5.2.csproj|solutionrelative:problema-5.2\\parametro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,26 +34,50 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Alumno.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\KIKER\\FACULTAD\\PROGRAMACION I\\LOGICA\\UNIDAD 5\\TRABAJOS\\Problema-5.2\\Problema-5.2\\Alumno.cs",
-              "RelativeDocumentMoniker": "Problema-5.2\\Alumno.cs",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\KIKER\\FACULTAD\\PROGRAMACION I\\LOGICA\\UNIDAD 5\\TRABAJOS\\Problema-5.2\\Problema-5.2\\Alumno.cs",
-              "RelativeToolTip": "Problema-5.2\\Alumno.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAqwCkAAACZAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\KIKER\\FACULTAD\\PROGRAMACION I\\LOGICA\\UNIDAD 5\\EJERCICIOS\\Problema-5.2\\Problema-5.2\\Form1.cs",
+              "RelativeDocumentMoniker": "Problema-5.2\\Form1.cs",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\KIKER\\FACULTAD\\PROGRAMACION I\\LOGICA\\UNIDAD 5\\EJERCICIOS\\Problema-5.2\\Problema-5.2\\Form1.cs",
+              "RelativeToolTip": "Problema-5.2\\Form1.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAwwGwAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T06:21:45.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T00:01:13.727Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "Parametro.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\KIKER\\FACULTAD\\PROGRAMACION I\\LOGICA\\UNIDAD 5\\EJERCICIOS\\Problema-5.2\\Problema-5.2\\Parametro.cs",
+              "RelativeDocumentMoniker": "Problema-5.2\\Parametro.cs",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\KIKER\\FACULTAD\\PROGRAMACION I\\LOGICA\\UNIDAD 5\\EJERCICIOS\\Problema-5.2\\Problema-5.2\\Parametro.cs",
+              "RelativeToolTip": "Problema-5.2\\Parametro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T02:56:10.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Alumno.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\KIKER\\FACULTAD\\PROGRAMACION I\\LOGICA\\UNIDAD 5\\EJERCICIOS\\Problema-5.2\\Problema-5.2\\Alumno.cs",
+              "RelativeDocumentMoniker": "Problema-5.2\\Alumno.cs",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\KIKER\\FACULTAD\\PROGRAMACION I\\LOGICA\\UNIDAD 5\\EJERCICIOS\\Problema-5.2\\Problema-5.2\\Alumno.cs",
+              "RelativeToolTip": "Problema-5.2\\Alumno.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAC8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T02:27:35.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "DAO.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\KIKER\\FACULTAD\\PROGRAMACION I\\LOGICA\\UNIDAD 5\\TRABAJOS\\Problema-5.2\\Problema-5.2\\DAO.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\KIKER\\FACULTAD\\PROGRAMACION I\\LOGICA\\UNIDAD 5\\EJERCICIOS\\Problema-5.2\\Problema-5.2\\DAO.cs",
               "RelativeDocumentMoniker": "Problema-5.2\\DAO.cs",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\KIKER\\FACULTAD\\PROGRAMACION I\\LOGICA\\UNIDAD 5\\TRABAJOS\\Problema-5.2\\Problema-5.2\\DAO.cs",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\KIKER\\FACULTAD\\PROGRAMACION I\\LOGICA\\UNIDAD 5\\EJERCICIOS\\Problema-5.2\\Problema-5.2\\DAO.cs",
               "RelativeToolTip": "Problema-5.2\\DAO.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAqwD4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAawDoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-09T05:13:31.611Z",
               "EditorCaption": ""
@@ -57,27 +85,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\KIKER\\FACULTAD\\PROGRAMACION I\\LOGICA\\UNIDAD 5\\TRABAJOS\\Problema-5.2\\Problema-5.2\\Form1.cs",
-              "RelativeDocumentMoniker": "Problema-5.2\\Form1.cs",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\KIKER\\FACULTAD\\PROGRAMACION I\\LOGICA\\UNIDAD 5\\TRABAJOS\\Problema-5.2\\Problema-5.2\\Form1.cs",
-              "RelativeToolTip": "Problema-5.2\\Form1.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T00:01:13.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\KIKER\\FACULTAD\\PROGRAMACION I\\LOGICA\\UNIDAD 5\\TRABAJOS\\Problema-5.2\\Problema-5.2\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\KIKER\\FACULTAD\\PROGRAMACION I\\LOGICA\\UNIDAD 5\\EJERCICIOS\\Problema-5.2\\Problema-5.2\\Form1.cs",
               "RelativeDocumentMoniker": "Problema-5.2\\Form1.cs",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\KIKER\\FACULTAD\\PROGRAMACION I\\LOGICA\\UNIDAD 5\\TRABAJOS\\Problema-5.2\\Problema-5.2\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\KIKER\\FACULTAD\\PROGRAMACION I\\LOGICA\\UNIDAD 5\\EJERCICIOS\\Problema-5.2\\Problema-5.2\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Problema-5.2\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T23:52:06.953Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-08T23:52:06.953Z"
             }
           ]
         }

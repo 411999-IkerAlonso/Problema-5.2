@@ -28,6 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -44,7 +47,6 @@
             this.txtNro = new System.Windows.Forms.TextBox();
             this.txtCalle = new System.Windows.Forms.TextBox();
             this.txtCantidad = new System.Windows.Forms.TextBox();
-            this.lstAlumnos = new System.Windows.Forms.ListBox();
             this.dtpFechaNac = new System.Windows.Forms.DateTimePicker();
             this.rbtFem = new System.Windows.Forms.RadioButton();
             this.rbtMasc = new System.Windows.Forms.RadioButton();
@@ -59,6 +61,11 @@
             this.btnGrabar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
+            this.dgvAlumnos = new System.Windows.Forms.DataGridView();
+            this.legajo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nombre_alumno = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.apellido_alumno = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAlumnos)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -193,16 +200,6 @@
             this.txtCantidad.Size = new System.Drawing.Size(100, 22);
             this.txtCantidad.TabIndex = 15;
             // 
-            // lstAlumnos
-            // 
-            this.lstAlumnos.Font = new System.Drawing.Font("Segoe UI Variable Text Semibold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lstAlumnos.FormattingEnabled = true;
-            this.lstAlumnos.ItemHeight = 22;
-            this.lstAlumnos.Location = new System.Drawing.Point(873, 37);
-            this.lstAlumnos.Name = "lstAlumnos";
-            this.lstAlumnos.Size = new System.Drawing.Size(240, 466);
-            this.lstAlumnos.TabIndex = 17;
-            // 
             // dtpFechaNac
             // 
             this.dtpFechaNac.Location = new System.Drawing.Point(315, 127);
@@ -336,12 +333,73 @@
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
+            // dgvAlumnos
+            // 
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvAlumnos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvAlumnos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAlumnos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.legajo,
+            this.nombre_alumno,
+            this.apellido_alumno});
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvAlumnos.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvAlumnos.Location = new System.Drawing.Point(791, 99);
+            this.dgvAlumnos.Name = "dgvAlumnos";
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvAlumnos.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvAlumnos.RowHeadersWidth = 51;
+            this.dgvAlumnos.RowTemplate.Height = 24;
+            this.dgvAlumnos.Size = new System.Drawing.Size(351, 285);
+            this.dgvAlumnos.TabIndex = 32;
+            // 
+            // legajo
+            // 
+            this.legajo.HeaderText = "Legajo";
+            this.legajo.MinimumWidth = 6;
+            this.legajo.Name = "legajo";
+            this.legajo.Visible = false;
+            this.legajo.Width = 125;
+            // 
+            // nombre_alumno
+            // 
+            this.nombre_alumno.HeaderText = "Nombre";
+            this.nombre_alumno.MinimumWidth = 6;
+            this.nombre_alumno.Name = "nombre_alumno";
+            this.nombre_alumno.Width = 125;
+            // 
+            // apellido_alumno
+            // 
+            this.apellido_alumno.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.apellido_alumno.HeaderText = "Apellido";
+            this.apellido_alumno.MinimumWidth = 6;
+            this.apellido_alumno.Name = "apellido_alumno";
+            // 
             // frmAlumnos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.ClientSize = new System.Drawing.Size(1154, 651);
+            this.Controls.Add(this.dgvAlumnos);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnGrabar);
@@ -356,7 +414,6 @@
             this.Controls.Add(this.rbtMasc);
             this.Controls.Add(this.rbtFem);
             this.Controls.Add(this.dtpFechaNac);
-            this.Controls.Add(this.lstAlumnos);
             this.Controls.Add(this.txtCantidad);
             this.Controls.Add(this.txtCalle);
             this.Controls.Add(this.txtNro);
@@ -379,6 +436,7 @@
             this.Name = "frmAlumnos";
             this.Text = "Alumnos";
             this.Load += new System.EventHandler(this.frmAlumnos_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAlumnos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -402,7 +460,6 @@
         private System.Windows.Forms.TextBox txtNro;
         private System.Windows.Forms.TextBox txtCalle;
         private System.Windows.Forms.TextBox txtCantidad;
-        private System.Windows.Forms.ListBox lstAlumnos;
         private System.Windows.Forms.DateTimePicker dtpFechaNac;
         private System.Windows.Forms.RadioButton rbtFem;
         private System.Windows.Forms.RadioButton rbtMasc;
@@ -417,6 +474,10 @@
         private System.Windows.Forms.Button btnGrabar;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.DataGridView dgvAlumnos;
+        private System.Windows.Forms.DataGridViewTextBoxColumn legajo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nombre_alumno;
+        private System.Windows.Forms.DataGridViewTextBoxColumn apellido_alumno;
     }
 }
 
