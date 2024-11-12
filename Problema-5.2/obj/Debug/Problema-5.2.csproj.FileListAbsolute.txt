@@ -18,3 +18,13 @@ C:\Users\usuario\Desktop\KIKER\FACULTAD\PROGRAMACION I\LOGICA\UNIDAD 5\EJERCICIO
 C:\Users\usuario\Desktop\KIKER\FACULTAD\PROGRAMACION I\LOGICA\UNIDAD 5\EJERCICIOS\Problema-5.2\Problema-5.2\obj\Debug\Problema-5.2.csproj.CoreCompileInputs.cache
 C:\Users\usuario\Desktop\KIKER\FACULTAD\PROGRAMACION I\LOGICA\UNIDAD 5\EJERCICIOS\Problema-5.2\Problema-5.2\obj\Debug\Problema-5.2.exe
 C:\Users\usuario\Desktop\KIKER\FACULTAD\PROGRAMACION I\LOGICA\UNIDAD 5\EJERCICIOS\Problema-5.2\Problema-5.2\obj\Debug\Problema-5.2.pdb
+C:\Users\syste\OneDrive\Escritorio\FACULTAD\CURSADO\PRIMER CUATRIMESTRE\PROGRAMACION\LOGICA\UNIDAD 5\EJERCICIOS\Problema-5.2\Problema-5.2\bin\Debug\Problema-5.2.exe.config
+C:\Users\syste\OneDrive\Escritorio\FACULTAD\CURSADO\PRIMER CUATRIMESTRE\PROGRAMACION\LOGICA\UNIDAD 5\EJERCICIOS\Problema-5.2\Problema-5.2\bin\Debug\Problema-5.2.exe
+C:\Users\syste\OneDrive\Escritorio\FACULTAD\CURSADO\PRIMER CUATRIMESTRE\PROGRAMACION\LOGICA\UNIDAD 5\EJERCICIOS\Problema-5.2\Problema-5.2\bin\Debug\Problema-5.2.pdb
+C:\Users\syste\OneDrive\Escritorio\FACULTAD\CURSADO\PRIMER CUATRIMESTRE\PROGRAMACION\LOGICA\UNIDAD 5\EJERCICIOS\Problema-5.2\Problema-5.2\obj\Debug\Problema-5.2.csproj.AssemblyReference.cache
+C:\Users\syste\OneDrive\Escritorio\FACULTAD\CURSADO\PRIMER CUATRIMESTRE\PROGRAMACION\LOGICA\UNIDAD 5\EJERCICIOS\Problema-5.2\Problema-5.2\obj\Debug\Problema_5._2.frmAlumnos.resources
+C:\Users\syste\OneDrive\Escritorio\FACULTAD\CURSADO\PRIMER CUATRIMESTRE\PROGRAMACION\LOGICA\UNIDAD 5\EJERCICIOS\Problema-5.2\Problema-5.2\obj\Debug\Problema_5._2.Properties.Resources.resources
+C:\Users\syste\OneDrive\Escritorio\FACULTAD\CURSADO\PRIMER CUATRIMESTRE\PROGRAMACION\LOGICA\UNIDAD 5\EJERCICIOS\Problema-5.2\Problema-5.2\obj\Debug\Problema-5.2.csproj.GenerateResource.cache
+C:\Users\syste\OneDrive\Escritorio\FACULTAD\CURSADO\PRIMER CUATRIMESTRE\PROGRAMACION\LOGICA\UNIDAD 5\EJERCICIOS\Problema-5.2\Problema-5.2\obj\Debug\Problema-5.2.csproj.CoreCompileInputs.cache
+C:\Users\syste\OneDrive\Escritorio\FACULTAD\CURSADO\PRIMER CUATRIMESTRE\PROGRAMACION\LOGICA\UNIDAD 5\EJERCICIOS\Problema-5.2\Problema-5.2\obj\Debug\Problema-5.2.exe
+C:\Users\syste\OneDrive\Escritorio\FACULTAD\CURSADO\PRIMER CUATRIMESTRE\PROGRAMACION\LOGICA\UNIDAD 5\EJERCICIOS\Problema-5.2\Problema-5.2\obj\Debug\Problema-5.2.pdb

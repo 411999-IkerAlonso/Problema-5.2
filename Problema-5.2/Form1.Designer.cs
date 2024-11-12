@@ -28,9 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -65,6 +62,7 @@
             this.legajo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombre_alumno = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.apellido_alumno = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnRecargar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAlumnos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,7 +71,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(235, 41);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 16);
+            this.label1.Size = new System.Drawing.Size(44, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nombre";
             // 
@@ -82,7 +80,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(235, 87);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 16);
+            this.label2.Size = new System.Drawing.Size(44, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Apellido";
             // 
@@ -91,7 +89,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(174, 132);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(116, 16);
+            this.label3.Size = new System.Drawing.Size(93, 13);
             this.label3.TabIndex = 2;
             this.label3.Text = "Fecha Nacimiento";
             // 
@@ -100,7 +98,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(252, 181);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 16);
+            this.label4.Size = new System.Drawing.Size(31, 13);
             this.label4.TabIndex = 3;
             this.label4.Text = "Sexo";
             // 
@@ -109,7 +107,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(184, 224);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(107, 16);
+            this.label5.Size = new System.Drawing.Size(86, 13);
             this.label5.TabIndex = 4;
             this.label5.Text = "Tipo Documento";
             // 
@@ -118,7 +116,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(547, 229);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(32, 16);
+            this.label6.Size = new System.Drawing.Size(27, 13);
             this.label6.TabIndex = 5;
             this.label6.Text = "Doc";
             // 
@@ -127,7 +125,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(234, 285);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(38, 16);
+            this.label7.Size = new System.Drawing.Size(30, 13);
             this.label7.TabIndex = 6;
             this.label7.Text = "Calle";
             // 
@@ -136,7 +134,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(547, 285);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(29, 16);
+            this.label8.Size = new System.Drawing.Size(24, 13);
             this.label8.TabIndex = 7;
             this.label8.Text = "Nro";
             // 
@@ -145,7 +143,7 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(446, 390);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(61, 16);
+            this.label9.Size = new System.Drawing.Size(49, 13);
             this.label9.TabIndex = 8;
             this.label9.Text = "Cantidad";
             // 
@@ -154,7 +152,7 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(227, 460);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(52, 16);
+            this.label10.Size = new System.Drawing.Size(41, 13);
             this.label10.TabIndex = 9;
             this.label10.Text = "Carrera";
             // 
@@ -162,49 +160,49 @@
             // 
             this.txtNombre.Location = new System.Drawing.Point(323, 41);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(183, 22);
+            this.txtNombre.Size = new System.Drawing.Size(183, 19);
             this.txtNombre.TabIndex = 10;
             // 
             // txtApellido
             // 
             this.txtApellido.Location = new System.Drawing.Point(323, 87);
             this.txtApellido.Name = "txtApellido";
-            this.txtApellido.Size = new System.Drawing.Size(183, 22);
+            this.txtApellido.Size = new System.Drawing.Size(183, 19);
             this.txtApellido.TabIndex = 11;
             // 
             // txtDoc
             // 
             this.txtDoc.Location = new System.Drawing.Point(607, 223);
             this.txtDoc.Name = "txtDoc";
-            this.txtDoc.Size = new System.Drawing.Size(108, 22);
+            this.txtDoc.Size = new System.Drawing.Size(108, 19);
             this.txtDoc.TabIndex = 12;
             // 
             // txtNro
             // 
             this.txtNro.Location = new System.Drawing.Point(607, 279);
             this.txtNro.Name = "txtNro";
-            this.txtNro.Size = new System.Drawing.Size(108, 22);
+            this.txtNro.Size = new System.Drawing.Size(108, 19);
             this.txtNro.TabIndex = 13;
             // 
             // txtCalle
             // 
             this.txtCalle.Location = new System.Drawing.Point(315, 279);
             this.txtCalle.Name = "txtCalle";
-            this.txtCalle.Size = new System.Drawing.Size(191, 22);
+            this.txtCalle.Size = new System.Drawing.Size(191, 19);
             this.txtCalle.TabIndex = 14;
             // 
             // txtCantidad
             // 
             this.txtCantidad.Location = new System.Drawing.Point(533, 388);
             this.txtCantidad.Name = "txtCantidad";
-            this.txtCantidad.Size = new System.Drawing.Size(100, 22);
+            this.txtCantidad.Size = new System.Drawing.Size(100, 19);
             this.txtCantidad.TabIndex = 15;
             // 
             // dtpFechaNac
             // 
             this.dtpFechaNac.Location = new System.Drawing.Point(315, 127);
             this.dtpFechaNac.Name = "dtpFechaNac";
-            this.dtpFechaNac.Size = new System.Drawing.Size(279, 22);
+            this.dtpFechaNac.Size = new System.Drawing.Size(279, 19);
             this.dtpFechaNac.TabIndex = 18;
             this.dtpFechaNac.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
@@ -213,7 +211,7 @@
             this.rbtFem.AutoSize = true;
             this.rbtFem.Location = new System.Drawing.Point(315, 179);
             this.rbtFem.Name = "rbtFem";
-            this.rbtFem.Size = new System.Drawing.Size(36, 20);
+            this.rbtFem.Size = new System.Drawing.Size(31, 17);
             this.rbtFem.TabIndex = 19;
             this.rbtFem.TabStop = true;
             this.rbtFem.Text = "F";
@@ -224,7 +222,7 @@
             this.rbtMasc.AutoSize = true;
             this.rbtMasc.Location = new System.Drawing.Point(449, 179);
             this.rbtMasc.Name = "rbtMasc";
-            this.rbtMasc.Size = new System.Drawing.Size(39, 20);
+            this.rbtMasc.Size = new System.Drawing.Size(34, 17);
             this.rbtMasc.TabIndex = 20;
             this.rbtMasc.TabStop = true;
             this.rbtMasc.Text = "M";
@@ -235,7 +233,7 @@
             this.chbActividad.AutoSize = true;
             this.chbActividad.Location = new System.Drawing.Point(315, 338);
             this.chbActividad.Name = "chbActividad";
-            this.chbActividad.Size = new System.Drawing.Size(85, 20);
+            this.chbActividad.Size = new System.Drawing.Size(70, 17);
             this.chbActividad.TabIndex = 21;
             this.chbActividad.Text = "Actividad";
             this.chbActividad.UseVisualStyleBackColor = true;
@@ -245,7 +243,7 @@
             this.chbCasado.AutoSize = true;
             this.chbCasado.Location = new System.Drawing.Point(315, 364);
             this.chbCasado.Name = "chbCasado";
-            this.chbCasado.Size = new System.Drawing.Size(77, 20);
+            this.chbCasado.Size = new System.Drawing.Size(62, 17);
             this.chbCasado.TabIndex = 22;
             this.chbCasado.Text = "Casado";
             this.chbCasado.UseVisualStyleBackColor = true;
@@ -255,7 +253,7 @@
             this.chbHijos.AutoSize = true;
             this.chbHijos.Location = new System.Drawing.Point(315, 390);
             this.chbHijos.Name = "chbHijos";
-            this.chbHijos.Size = new System.Drawing.Size(60, 20);
+            this.chbHijos.Size = new System.Drawing.Size(49, 17);
             this.chbHijos.TabIndex = 23;
             this.chbHijos.Text = "Hijos";
             this.chbHijos.UseVisualStyleBackColor = true;
@@ -265,7 +263,7 @@
             this.cboTipoDoc.FormattingEnabled = true;
             this.cboTipoDoc.Location = new System.Drawing.Point(300, 221);
             this.cboTipoDoc.Name = "cboTipoDoc";
-            this.cboTipoDoc.Size = new System.Drawing.Size(206, 24);
+            this.cboTipoDoc.Size = new System.Drawing.Size(206, 21);
             this.cboTipoDoc.TabIndex = 24;
             // 
             // cboCarrera
@@ -273,7 +271,7 @@
             this.cboCarrera.FormattingEnabled = true;
             this.cboCarrera.Location = new System.Drawing.Point(300, 452);
             this.cboCarrera.Name = "cboCarrera";
-            this.cboCarrera.Size = new System.Drawing.Size(206, 24);
+            this.cboCarrera.Size = new System.Drawing.Size(206, 21);
             this.cboCarrera.TabIndex = 25;
             // 
             // btnNuevo
@@ -337,37 +335,13 @@
             // 
             // dgvAlumnos
             // 
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvAlumnos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvAlumnos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvAlumnos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.legajo,
             this.nombre_alumno,
             this.apellido_alumno});
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvAlumnos.DefaultCellStyle = dataGridViewCellStyle5;
             this.dgvAlumnos.Location = new System.Drawing.Point(791, 99);
             this.dgvAlumnos.Name = "dgvAlumnos";
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvAlumnos.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dgvAlumnos.RowHeadersWidth = 51;
             this.dgvAlumnos.RowTemplate.Height = 24;
             this.dgvAlumnos.Size = new System.Drawing.Size(351, 285);
@@ -395,12 +369,23 @@
             this.apellido_alumno.MinimumWidth = 6;
             this.apellido_alumno.Name = "apellido_alumno";
             // 
+            // btnRecargar
+            // 
+            this.btnRecargar.Location = new System.Drawing.Point(874, 74);
+            this.btnRecargar.Name = "btnRecargar";
+            this.btnRecargar.Size = new System.Drawing.Size(136, 19);
+            this.btnRecargar.TabIndex = 33;
+            this.btnRecargar.Text = "RECARGAR";
+            this.btnRecargar.UseVisualStyleBackColor = true;
+            this.btnRecargar.Click += new System.EventHandler(this.btnRecargar_Click);
+            // 
             // frmAlumnos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.ClientSize = new System.Drawing.Size(1154, 651);
+            this.Controls.Add(this.btnRecargar);
             this.Controls.Add(this.dgvAlumnos);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnCancelar);
@@ -480,6 +465,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn legajo;
         private System.Windows.Forms.DataGridViewTextBoxColumn nombre_alumno;
         private System.Windows.Forms.DataGridViewTextBoxColumn apellido_alumno;
+        private System.Windows.Forms.Button btnRecargar;
     }
 }
 

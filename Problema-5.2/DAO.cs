@@ -11,7 +11,7 @@ namespace Problema_5._2
 {
     public class DAO
     {
-        private string cadenaConexion = "Data Source=COSITAS;Initial Catalog = Trabajo5_1; Integrated Security = True; Encrypt=False; password=Fermin11";
+        private string cadenaConexion = "Data Source=DESKTOP-U1RTF5J\\SQL2022IKER;Initial Catalog=Trabajo5_1;User ID=sa;Encrypt=False; password= Fermin11";
         private SqlConnection conexion;
         private SqlCommand comando;
         public DAO()

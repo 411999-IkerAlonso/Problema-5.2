@@ -42,15 +42,67 @@ namespace Problema_5._2
             CargarCboTipoDoc();
             cboTipoDoc.SelectedIndex = -1;
             cboCarrera.SelectedIndex = -1;
+            cboTipoDoc.Enabled = false;
+            cboCarrera.Enabled = false;
             rbtFem.Checked = true;
             rbtMasc.Checked = false;
+            rbtFem.Enabled = false;
+            rbtMasc.Enabled = false;
             btnCancelar.Enabled = false;
             btnGrabar.Enabled = false;
             btnBorrar.Enabled = true;
             btnEditar.Enabled = true;
+            txtNombre.Clear();
+            txtNombre.Enabled = false;
+            txtApellido.Clear();
+            txtApellido.Enabled = false;
+            txtCalle.Clear();
+            txtCalle.Enabled = false;
+            txtCantidad.Clear();
+            txtCantidad.Enabled = false;
+            txtDoc.Clear();
+            txtDoc.Enabled = false;
+            txtNro.Clear();
+            txtNro.Enabled = false;
+            dtpFechaNac.Value = DateTime.Now;
+            dtpFechaNac.Enabled = false;
+            chbActividad.Enabled = false;
+            chbActividad.Enabled= false;
+            chbHijos.Enabled = false;
+            chbCasado.Enabled = false;
             CargarLista("SELECT a.legajo, a.nombre, a.apellido FROM alumnos a");
         }
 
+        private void LimpiarForms()
+        {
+            cboTipoDoc.SelectedIndex = -1;
+            cboCarrera.SelectedIndex = -1;
+            cboTipoDoc.Enabled = false;
+            cboCarrera.Enabled = false;
+            rbtFem.Checked = true;
+            rbtMasc.Checked = false;
+            rbtFem.Enabled = false;
+            rbtMasc.Enabled = false;
+            btnNuevo.Enabled = true;
+            btnCancelar.Enabled = false;
+            btnGrabar.Enabled = false;
+            btnBorrar.Enabled = true;
+            btnEditar.Enabled = true;
+            txtNombre.Clear();
+            txtNombre.Enabled = false;
+            txtApellido.Clear();
+            txtApellido.Enabled = false;
+            txtCalle.Clear();
+            txtCalle.Enabled = false;
+            txtCantidad.Clear();
+            txtCantidad.Enabled = false;
+            txtDoc.Clear();
+            txtDoc.Enabled = false;
+            txtNro.Clear();
+            txtNro.Enabled = false;
+            dtpFechaNac.Value = DateTime.Now;
+            dtpFechaNac.Enabled = false;
+        }
         private void CargarCboCarrera()
         {
             //Al crear el datatable aca evitamos mandarle por parametro el nombre de la tabla al metodo
@@ -109,13 +161,52 @@ namespace Problema_5._2
                 alumno.Carrera = Convert.ToInt32(cboCarrera.SelectedValue);
                 //Si llega a dar error cambiar aquellos valores que en la Bd son int y aca string, por int
                 NuevoAlumno();
+                LimpiarForms();
                 CargarLista("SELECT a.legajo, a.nombre, a.apellido FROM alumnos a");
+                
             }
             else if(Modo == 2)
             {
                 int legajoAlumno = Convert.ToInt32(dgvAlumnos.CurrentRow.Cells[0].Value); 
                 EditarAlumno(legajoAlumno);
+                alumno.Nombre = txtNombre.Text;
+                alumno.Apellido = txtApellido.Text;
+                alumno.FechaNac = dtpFechaNac.Value;
+                if (rbtFem.Checked)
+                {
+                    alumno.Sexo = "Femenino";
+                }
+                else if (rbtMasc.Checked)
+                {
+                    alumno.Sexo = "Masculino";
+                }
+                alumno.TipoDoc = Convert.ToInt32(cboTipoDoc.SelectedValue);
+                alumno.Doc = Convert.ToInt32(txtDoc.Text);
+                alumno.Calle = Convert.ToString(txtCalle.Text);
+                alumno.NroCalle = Convert.ToInt32(txtNro.Text);
+                if (chbActividad.Checked)
+                {
+                    alumno.Actividad = true;
+                }
+                else alumno.Actividad = false;
+                if (chbCasado.Checked)
+                {
+                    alumno.Casado = true;
+                }
+                else alumno.Casado = false;
+                if (chbHijos.Checked)
+                {
+                    alumno.Hijos = true;
+                }
+                else
+                {
+                    alumno.Hijos = false;
+                    txtCantidad.Enabled = false;
+                };
+                alumno.Carrera = Convert.ToInt32(cboCarrera.SelectedValue);
+                LimpiarForms();
                 CargarLista("SELECT a.legajo, a.nombre, a.apellido FROM alumnos a");
+                
             }
         }
 
@@ -195,6 +286,29 @@ namespace Problema_5._2
         private void btnNuevo_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Completa los cambios para poder Agregar un alumno");
+            cboTipoDoc.Enabled = true;
+            cboCarrera.Enabled = true;
+            rbtFem.Checked = true;
+            rbtMasc.Checked = false;
+            rbtFem.Enabled = true;
+            rbtMasc.Enabled = true;
+            txtNombre.Clear();
+            txtNombre.Enabled = true;
+            txtApellido.Clear();
+            txtApellido.Enabled = true;
+            txtCalle.Clear();
+            txtCalle.Enabled = true;
+            txtCantidad.Clear();
+            txtCantidad.Enabled = true;
+            txtDoc.Clear();
+            txtDoc.Enabled = true;
+            txtNro.Clear();
+            txtNro.Enabled = true;
+            dtpFechaNac.Value = DateTime.Now;
+            dtpFechaNac.Enabled = true;
+            chbActividad.Enabled = true;
+            chbHijos.Enabled = true;
+            chbCasado.Enabled = true;
             btnGrabar.Enabled = true;
             btnBorrar .Enabled = false;
             btnEditar .Enabled = false;
@@ -204,13 +318,40 @@ namespace Problema_5._2
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
-            int legajoAlumno = Convert.ToInt32(dgvAlumnos.Rows[0]);
+            cboTipoDoc.Enabled = true;
+            cboCarrera.Enabled = true;
+            rbtFem.Checked = true;
+            rbtMasc.Checked = false;
+            rbtFem.Enabled = true;
+            rbtMasc.Enabled = true;
+            txtNombre.Clear();
+            txtNombre.Enabled = true;
+            txtApellido.Clear();
+            txtApellido.Enabled = true;
+            txtCalle.Clear();
+            txtCalle.Enabled = true;
+            txtCantidad.Clear();
+            txtCantidad.Enabled = true;
+            txtDoc.Clear();
+            txtDoc.Enabled = true;
+            txtNro.Clear();
+            txtNro.Enabled = true;
+            dtpFechaNac.Value = DateTime.Now;
+            dtpFechaNac.Enabled = true;
+            chbActividad.Enabled = true;
+            chbHijos.Enabled = true;
+            chbCasado.Enabled = true;
+            btnGrabar.Enabled = true;
+            btnBorrar.Enabled = false;
+            btnEditar.Enabled = true;
+            btnCancelar.Enabled = true;
+            int legajoAlumno = Convert.ToInt32(dgvAlumnos.CurrentRow.Cells[0].Value);
             CargarAlumno(legajoAlumno);
             btnNuevo.Enabled = false;
             btnBorrar .Enabled = false;
             btnGrabar .Enabled = true;
+            btnCancelar.Enabled = true;
             Modo = 2;
-            btnCancelar .Enabled = true;
         }
 
         private void Cancelar()
@@ -249,7 +390,56 @@ namespace Problema_5._2
                 alumno.Legajo = Convert.ToInt32(dr[0]);
                 alumno.Nombre = Convert.ToString(dr[1]);
                 alumno.Apellido = Convert.ToString(dr[2]);
+                alumno.FechaNac = Convert.ToDateTime(dr[3]);
+                alumno.Sexo = Convert.ToString(dr[4]);
+                alumno.TipoDoc = Convert.ToInt32(dr[5]);
+                alumno.Doc = Convert.ToInt32(dr[6]);
+                alumno.Calle = Convert.ToString(dr[7]);
+                alumno.NroCalle = Convert.ToInt32(dr[8]);
+                alumno.Actividad = Convert.ToBoolean(dr[9]);
+                alumno.Casado = Convert.ToBoolean(dr[10]);
+                alumno.Hijos = Convert.ToBoolean(dr[11]);
+                alumno.Cantidad = Convert.ToInt32(dr[12]);
+                alumno.Carrera = Convert.ToInt32(dr[13]);
+
+                txtNombre.Text = alumno.Nombre;
+                txtApellido.Text = alumno.Apellido;
+                dtpFechaNac.Value = alumno.FechaNac;
+                if (alumno.Sexo == "Masculino")
+                {
+                    rbtMasc.Checked = true;
+                }
+                else if(alumno.Sexo == "Femenino")
+                { 
+                rbtFem.Checked = true;  
+                }
+                cboTipoDoc.SelectedIndex = alumno.TipoDoc;
+                txtDoc.Text = Convert.ToString(alumno.Doc);
+                txtCalle.Text = alumno.Calle;
+                txtNro.Text = Convert.ToString(alumno.NroCalle);
+                if (alumno.Actividad == true)
+                {
+                    chbActividad.Checked = true;
+                }
+                else { chbActividad.Checked = false; }
+                if(alumno.Casado == true)
+                {
+                    chbCasado.Checked = true;
+                }
+                else chbCasado.Checked = false;
+                if(alumno.Hijos == true)
+                {
+                    chbHijos .Checked = true;
+                }
+                else chbHijos.Checked = false;
+                txtCantidad.Text = Convert.ToString(alumno.Cantidad);
+                cboCarrera.SelectedIndex = alumno.Carrera;
             }
+        }
+
+        private void btnRecargar_Click(object sender, EventArgs e)
+        {
+            CargarLista("SELECT a.legajo, a.nombre, a.apellido FROM alumnos a");
         }
     }
 }
